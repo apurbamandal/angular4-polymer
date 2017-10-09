@@ -1,15 +1,20 @@
-# CheckoutApp
+# angular4-polymer
+Angular with polymer components 
+This Project can serve as a boilerplate for your Angular-Polymer  project.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+## Requirements : 
 
-## Development server
+Install node and then run `npm install –g @angular/cli` command to install angular-cli globally.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+For angular-cli usage : [Angular-cli](https://github.com/angular/angular-cli/wiki)
 
-## Code scaffolding
+## Recommended IDE :  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+[Visual Studio Code](https://code.visualstudio.com/)
 
+## Usage : 
+
+After installing angular-cli, go to the project and run `npm install` and then `ng serve` command to serve this project on `localhost:4200`.
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
