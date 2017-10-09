@@ -73,4 +73,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 // import 'intl/locale-data/jsonp/en';
 
  import '@webcomponents/webcomponentsjs/webcomponents-sd-ce.js'
-//  import '@webcomponents/webcomponentsjs/webcomponents-lite.js'
+// import 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js';
+import 'jquery/dist/jquery.min.js'

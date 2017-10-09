@@ -1,0 +1,33 @@
+
+
+<link rel="import"  href="https://polygit.org/components/polymer/polymer-element.html">
+
+<dom-module id="custom-element">
+  <link rel="import" type="css" href="polymer.component.css">
+
+  <template>
+    <!-- bind to the "owner" property -->
+  <div class="red-color" >
+      This is <b>[[owner]]</b>'s text in side Polymer (Web component).
+      
+    </div>  
+   
+  </template>
+  
+  <script>
+    class CustomElement extends Polymer.Element {
+      static get is() { return "custom-element"; }
+      // configure owner property
+      static get properties() {
+        return {
+          owner: {
+            type: String,
+            value: "Daniel",
+          }
+        };
+      }
+    }
+    customElements.define(CustomElement.is, CustomElement);
+  </script>
+
+</dom-module>

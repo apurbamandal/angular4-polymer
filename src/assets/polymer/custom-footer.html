@@ -1,0 +1,46 @@
+<link rel="import" href="https://polygit.org/components/polymer/polymer-element.html">
+
+
+<dom-module id="custom-footer">
+  <link rel="import" type="css" href="main.css">
+
+  <template>
+    <!-- bind to the "owner" property -->
+    <section class="main-body-footer-container">
+        <footer  class="main-footer" id="main-footer">
+  
+  <div  class="row">
+    <div  class="col-sm-8">
+        <div >
+              <!----><span  class="spacer-in-right-sm spacer-in-bottom-sm">
+                  <!---->
+                  <slot></slot>
+              </span>
+        <div  class="spacer-out-top-sm">
+          
+        </div>
+      </div>
+    </div>
+    <div  class="col-sm-4">
+    </div>
+  </div>
+</footer>
+
+      </section>
+
+  </template>
+
+  <script>
+    class CustomFooter extends Polymer.Element {
+      static get is() { return "custom-footer"; }
+      // configure owner property
+      static get properties() {
+        return {
+         
+        };
+      }
+    }
+    customElements.define(CustomFooter.is, CustomFooter);
+  </script>
+
+</dom-module>
